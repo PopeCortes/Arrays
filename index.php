@@ -57,6 +57,7 @@ echo "<br>";
 echo "<br>";
 
 //! Arrays Multidimensionales
+echo "<b><h3>Arrays Multidimensionales</h3></b>";
 
 $multiArray = array(
     array("Nombre" => "Juan", "Edad" => 30),
