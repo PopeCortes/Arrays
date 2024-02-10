@@ -52,10 +52,21 @@ echo "Apellidos: ". $arraysAsociativo['Apellidos'][0]. "<br>";
 echo "Ciudad: ". $arraysAsociativo['Ciudad']. "<br>";
 echo "Mes: ". $arraysAsociativo['Mes'][2]. "<br>";
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 //! Arrays Multidimensionales
+
 $multiArray = array(
     array("Nombre" => "Juan", "Edad" => 30),
     array("Nombre" => "María", "Edad" => 25),
     array("Nombre" => "Pedro", "Edad" => 35)
 );
+
+// Recorremos el array multidimensional con un bucle foreach
+foreach ($multiArray as $persona) {
+    // Para cada elemento del array, imprimimos el nombre y la edad
+    echo "Nombre: " . $persona['Nombre'] . ", Edad: " . $persona['Edad'] . "<br>";
+}
+?>
